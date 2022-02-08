@@ -1,0 +1,12 @@
+cd splits
+python split1.py
+cd ..
+cd deberta_base3
+sh run.sh
+cd ..
+cd roberta_base3
+sh run.sh
+cd ..
+cd roberta_large3
+sh run.sh
+cd ..
